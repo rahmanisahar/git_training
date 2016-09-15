@@ -8,5 +8,12 @@ data<-read.csv("validate-vars.txt", colClasses=column_classes)
 # Frequency counts
 # Compare means
 # Cross tabs
+
+
 # Validate variables
+# only print rows that have a valid variable in "Var": A,B,C,D (not E)
+# http://stackoverflow.com/questions/1686569/filtering-a-data-frame-in-r
+validdata<-data[data$Var %in% c("A","B","C","D"),]
+
+
 # Summing by ID
