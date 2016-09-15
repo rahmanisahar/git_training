@@ -17,3 +17,6 @@ validdata<-data[data$Var %in% c("A","B","C","D"),]
 
 
 # Summing by ID
+
+# add some more information here.
+# la ala lallalala
